@@ -1,0 +1,537 @@
+.header {
+  width: 100%;
+  height: 150px;
+  background-color: navy;
+}
+.mainHeader {
+  color: white;
+  font-size: 30px;
+}
+.JPY {
+  color: white;
+  font-size: 20px;
+}
+.text-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 10px;
+}
+.text-container span {
+  padding: 5px;
+  margin: 5px;
+}
+.white-box {
+  background-color: #fff;
+  padding: 20px;
+  color: navy;
+  border: 1px solid #ccc;
+}
+.header-bottom {
+  padding-left: 335px;
+  color: white;
+  margin: 0px;
+  font-size: 16px;
+}
+.header-bottom span {
+  padding-left: 50px;
+}
+.stays-box {
+  padding: 10px 40px 10px 0px;
+
+  border-radius: 20px;
+  border: 2px solid white;
+}
+.image-container {
+  display: flex;
+}
+.img-container {
+  position: relative;
+  color: white;
+}
+.top-left {
+  position: absolute;
+  top: 100px;
+  font-size: 30px;
+  left: 340px;
+}
+.top-left-bottom {
+  position: absolute;
+  font-size: 25px;
+  top: 150px;
+  left: 340px;
+}
+.img-container .btn {
+  position: absolute;
+  top: 55%;
+  left: 460px;
+  /* left: 519px; */
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.img-container .btn:hover {
+  background-color: black;
+}
+.column {
+  float: left;
+  width: 18.7%;
+  position: relative;
+  left: 18%;
+  margin-top: -2%;
+  border: 2px solid yellow;
+}
+.right {
+  width: 8%;
+}
+.right p {
+  padding-left: 30%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.check-box {
+  margin-left: 18%;
+  margin-top: 2%;
+}
+LABEL.indented-checkbox-text {
+  margin-left: 19%;
+  display: block;
+  position: relative;
+  margin-top: -1.2%; /* make this margin match whatever your line-height is */
+  line-height: 1.4em; /* can be set here, or elsewehere */
+}
+#accordation {
+  margin-top: 100px auto;
+  /* margin-left: 370px; */
+  /* width: 600px; */
+  box-shadow: 0px 2px 8px 0px #00000026;
+}
+#accordation li {
+  list-style: none;
+  width: 80%;
+  margin-bottom: 10px;
+  background-color: white;
+  padding: 0px;
+  border-radius: 4px;
+}
+#accordation li label {
+  padding: 0px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  color: black;
+}
+#accordation li label span {
+  transform: rotate(270deg);
+  font-size: 22px;
+  color: black;
+  margin-left: 0px;
+}
+#accordation label + input[type="radio"] {
+  display: none;
+}
+#accordation .content {
+  padding: 0 10px;
+  line-height: 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+#accordation label + input[type="radio"] :checked + .content {
+  max-height: 400px;
+}
+.border {
+  /* width: 64vw; */
+  /* margin-top: 20px;
+  margin-left: 18%; */
+  padding: 20px 280px 20px 280px;
+}
+.slabHeading {
+  /* margin-top: 60px;
+  margin-left: 18%; */
+  padding: 60px 280px 20px 280px;
+}
+.box-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px 280px 10px 280px;
+}
+
+.slab-1 {
+  /* margin-left: 18%; */
+  align-items: center;
+  box-shadow: 0px 2px 8px 0px #00000026;
+  /* width: 32%; */
+  height: 300px;
+}
+.slab-2 {
+  margin-left: 10px;
+  object-fit: cover;
+  /* width: 32%; */
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.container-2 {
+  position: relative;
+}
+.button-3 {
+  position: absolute;
+  bottom: 38px;
+  width: 250px;
+  height: 60px;
+  padding-left: 16px;
+}
+.bottom-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: blue;
+}
+.bottom-right {
+  position: absolute;
+  top: 48px;
+  padding-left: 16px;
+  color: blue;
+}
+.button-right {
+  position: absolute;
+  bottom: 38px;
+  width: 250px;
+  height: 60px;
+  padding-left: 16px;
+}
+.jal {
+  margin-left: 300px;
+  position: relative;
+  bottom: 80px;
+}
+.next-slab {
+  /* margin-top: 40px;
+  margin-left: 18%; */
+  padding: 20px 280px 20px 280px;
+}
+.footer-container {
+  margin-top: 5%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.copy {
+  margin-top: 2%;
+}
+
+.footer-container strong {
+  color: blue;
+}
+.flex-container-footer {
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  color: blue;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.blue-footer-box {
+  color: white;
+  margin-top: 0.25%;
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+}
+.top {
+  margin-left: 15%;
+  position: relative;
+  top: 30%;
+}
+.an {
+  margin-left: 3%;
+}
+.navy-box {
+  margin-top: 8%;
+  width: 100%;
+  height: 350px;
+  background-color: navy;
+}
+.navy-box h2 {
+  color: white;
+  text-align: center;
+}
+.navy-box h3 {
+  color: white;
+  text-align: center;
+}
+
+.dark-blue {
+  width: 100%;
+  height: 150px;
+  background-color: blue;
+}
+.discover-box {
+  margin-top: 8%;
+  width: 65%;
+  height: 350px;
+  box-shadow: 0px 2px 8px 0px #00000026;
+
+  display: flex;
+  flex-direction: row;
+}
+.blue-halfBox {
+  width: 30%;
+  height: 350px;
+  background-color: blue;
+  margin-left: 20%;
+  border-radius: 70px;
+}
+.blue-halfBox p {
+  position: absolute;
+  color: white;
+  margin-top: 8%;
+  font-size: 1rem;
+  margin-left: 3%;
+}
+.blue-halfBox button {
+  background-color: white;
+  height: 50px;
+  margin-left: 28%;
+  margin-top: 60%;
+}
+.semicircle {
+  margin-top: 5%;
+  width: 90px;
+  height: 180px;
+  border-radius: 0 12rem 12rem 0;
+  background-color: yellow;
+}
+.catimg {
+  margin-top: 7%;
+  margin-left: 5%;
+}
+.three-contents {
+  margin-top: 2%;
+  margin-left: 18%;
+}
+.cities {
+  margin-left: 5%;
+}
+.places {
+  margin-left: 5%;
+}
+.regions-box {
+  /* margin-left: 5%; */
+  padding: 10px;
+  border-radius: 30%;
+  border: 2px solid blue;
+  background-color: skyblue;
+}
+.bottom-top-footer-container {
+  margin-top: 5%;
+  margin-right: 14%;
+  display: flex;
+
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+.destinations {
+  margin-top: 4%;
+  margin-left: 18%;
+}
+.first-row-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 10px 10px 10px;
+}
+
+.first-row-container div {
+  flex: 0 0 10%; /* set the width of each image and text block to 25% of the container */
+  text-align: justify;
+  margin: 10px;
+}
+
+.first-row-container img {
+  width: 100%;
+  height: auto;
+}
+
+.first-row-container .text {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-style: bold;
+}
+.second-row-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.second-row-container div {
+  flex: 0 0 32%; /* set the width of each image and text block to 25% of the container */
+  text-align: justify;
+  margin: 10px;
+}
+.second-row-container img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.textImage-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.texts {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: white;
+  font-size: 2rem;
+}
+.third-row-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.third-row-container div {
+  flex: 0 0 21%; /* set the width of each image and text block to 25% of the container */
+  text-align: justify;
+  margin: 10px;
+}
+.third-row-container img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.explore {
+  margin-left: 17.5%;
+}
+.fourth-row-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.fourth-row-container div {
+  flex: 0 0 15.5%; /* set the width of each image and text block to 25% of the container */
+  text-align: justify;
+  margin: 10px;
+}
+.fourth-row-container img {
+  width: 100%;
+  height: auto;
+}
+.fourth-row-container text {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-style: bold;
+}
+.bottom-header {
+  margin: 0px;
+  font-size: 16px;
+}
+.outdoors {
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid blue;
+  background-color: seashell;
+}
+.fifth-row-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.fifth-row-container div {
+  flex: 0 0 21%; /* set the width of each image and text block to 25% of the container */
+  text-align: justify;
+  margin: 10px;
+}
+.fifth-row-container img {
+  width: 100%;
+  height: auto;
+}
+.fifth-row-container text {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-style: bold;
+}
+.texts-1 {
+  position: absolute;
+  bottom: 135px;
+  left: 16px;
+  color: white;
+  font-size: 1rem;
+}
+.sixth-row-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 17%;
+}
+.sixth-row-container div {
+  flex: 0 0 21%; /* set the width of each image and text block to 25% of the container */
+  text-align: justify;
+  margin: 10px;
+}
+.sixth-row-container img {
+  width: 100%;
+  height: auto;
+}
+.sixth-row-container text {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-style: bold;
+}
+.discover-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.bottom-twoButtons {
+  margin-top: 2%;
+  /* margin-left: 43%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom-oneButtons {
+  position: relative;
+  top: 35%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom-oneButtons button {
+  background-color: blue;
+  color: white;
+}
